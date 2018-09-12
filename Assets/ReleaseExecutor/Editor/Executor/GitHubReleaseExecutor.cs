@@ -95,11 +95,11 @@ namespace ReleaseExecutor
         {
             if (string.IsNullOrEmpty(request.error))
             {
-                Debug.LogError(prefix + request.error);
-                return true;
+                return false;
             }
-
-            return false;
+            
+            Debug.LogError(prefix + request.error);
+            return true;
         }
 
         private string CreateReleaseJson()
