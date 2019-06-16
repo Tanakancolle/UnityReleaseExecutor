@@ -1,0 +1,9 @@
+{
+  "name": "release-executor",
+  "version": "1.0.0",
+  "displayName": "ReleaseExecutor",
+  "unity": "2019.1",
+  "description": "Release Executor",
+  "dependencies": {
+  }
+}
