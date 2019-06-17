@@ -82,7 +82,7 @@ namespace ReleaseExecutor
             if (_releaseSetting == null)
             {
                 _releaseSetting = Utility.FindAssetFromType<ReleaseExecutorSetting>();
-                _releaseSettingEditor = Editor.CreateEditor(_releaseSetting, typeof(ReleaseExecutorSetting));
+                _releaseSettingEditor = Editor.CreateEditor(_releaseSetting);
             }
         }
 
